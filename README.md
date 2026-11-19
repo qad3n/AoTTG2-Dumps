@@ -2,7 +2,7 @@
 
 Decompiled source for AoTTG2, taken from Ghidra dumps of the Linux standalone build (game version `11.15.2026`, Unity 6000.3.27f2).
 
-The game is built with IL2CPP, so many original names are stripped. Some identifiers here are placeholders, but the structure and logic match the binaries. 99.9% of methods match their machine code on every call, string literal and virtual call.
+The game is built with IL2CPP, so many original names are stripped. Some identifiers here are placeholders, but the structure and logic match the binaries. 99.9% of methods match their machine code on every call, string literal and virtual call. The 30 methods that do not carry a `// fidelity:` comment under their address listing what the C leaves out.
 
 ## cpp/
 
@@ -18,11 +18,11 @@ The same C# tree with each method body lifted from the C into C# syntax. Each me
 
 ## il2cpp/
 
-Decrypts `global-metadata.dat` and recovers the renamed `il2cpp_*` exports so dumpers can read the game. It works on other IL2CPP games too. See `il2cpp/README.md`.
+Decrypts `global-metadata.dat` and recovers the renamed `il2cpp_*` exports so dumpers can read the game. It reads Windows (PE) builds and has one scheme row, for the November 1 2026 Windows build. The Linux build in this dump uses a different header layout that it does not handle yet. See `il2cpp/README.md`.
 
 ## reconstructed/
 
-Readable C# for the encoding, compression and networking code, rebuilt from the stubs and the Ghidra output. Original namespaces and layout are kept.
+Readable C# for the encoding, compression and networking code, rebuilt from the stubs and the Ghidra output and checked against this Linux build. Original namespaces and layout are kept. Private helpers marked "the game inlines this" do not exist in the binary; they stand for code the compiler repeats at each call site.
 
 - `ApplicationManagers/`: `ApplicationEncoder` builds the lobby and room hashes, and `ApplicationVersion` feeds them into Photon.
 - `Utility/`: `CSVCompression`, `DataCompressors` and the `Algorithms/` wrappers (`Brotli`, `GZip`, `Deflate`, `LZF`).

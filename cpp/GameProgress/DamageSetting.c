@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: CHANGED in this game update
-// C# structure: source/csharp/Scripts/GameProgress/DamageSetting.cs
+// C# structure: source/csharp_body_deref/Scripts/GameProgress/DamageSetting.cs
 // Prior real C# source (older reference): Assets/Scripts/GameProgress/DamageSetting.cs
 // --------------------------------
 
@@ -250,6 +250,8 @@ label_0591e49d:
 // GameProgress.DamageSetting.<GetStatLabels>d__19$$MoveNext
 // il2cpp: bool GameProgress_DamageSetting__GetStatLabels_d__19__MoveNext (GameProgress_DamageSetting__GetStatLabels_d__19_o* __this, const MethodInfo* method);
 // 0x591e4d0
+// fidelity: the machine code has facts this C leaves out:
+//   virtual call through vtable slot 43 (2 times)
 // eh: try 0x591e620..0x591ef83 -> pad 0x591e9b3 (+62 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
 // eh: try 0x591efba..0x591efbf -> pad 0x591efda cleanup
 // eh: try 0x591efdd..0x591efea -> pad 0x591eff2 catch (...) [compiler noexcept guard]
@@ -1120,6 +1122,8 @@ void GameProgress_DamageSetting___cctor(MethodInfo *method)
 // GameProgress.DamageSetting$$get_Item
 // il2cpp: System_ValueTuple_ulong__ulong__o GameProgress_DamageSetting__get_Item (GameProgress_DamageSetting_o* __this, GameProgress_KillMethod_o method, const MethodInfo* method);
 // 0x591cab0
+// fidelity: the machine code has facts this C leaves out:
+//   virtual call through vtable slot 43 (2 times)
 // asm: 6 instructions the C leaves out (exception handlers, dead branches):
 // asm:   0x591cdbd: xorps xmm0, xmm0
 // asm:   0x591cdc0: movaps xmmword ptr [rsp], xmm0
@@ -1432,6 +1436,8 @@ label_0591d320:
 // GameProgress.DamageSetting$$get_Overall
 // il2cpp: System_ValueTuple_ulong__ulong__o GameProgress_DamageSetting__get_Overall (GameProgress_DamageSetting_o* __this, const MethodInfo* method);
 // 0x591d330
+// fidelity: the machine code has facts this C leaves out:
+//   virtual call through vtable slot 43 (2 times)
 // asm: 6 instructions the C leaves out (exception handlers, dead branches):
 // asm:   0x591d4a2: xorps xmm0, xmm0
 // asm:   0x591d4a5: movaps xmmword ptr [rsp], xmm0

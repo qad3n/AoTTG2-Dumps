@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: CHANGED in this game update
-// C# structure: source/csharp/Scripts/Characters/WallColossalShifter.cs
+// C# structure: source/csharp_body_deref/Scripts/Characters/WallColossalShifter.cs
 // Prior real C# source (older reference): Assets/Scripts/Characters/Shifters/WallColossal/WallColossalShifter.cs
 // --------------------------------
 
@@ -2782,6 +2782,8 @@ void Characters_WallColossalShifter__UpdateStunAnimation
 // Characters.WallColossalShifter$$DeactivateAllHitboxes
 // il2cpp: void Characters_WallColossalShifter__DeactivateAllHitboxes (Characters_WallColossalShifter_o* __this, const MethodInfo* method);
 // 0x5c23020
+// fidelity: the machine code has facts this C leaves out:
+//   virtual call through vtable slot 6
 // eh: try 0x5c230e4..0x5c2317a -> pad 0x5c23189 (+5 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
 // eh: try 0x5c231a1..0x5c231a6 -> pad 0x5c231c5 cleanup
 // eh: try 0x5c231c8..0x5c231d2 -> pad 0x5c231da catch (...) [compiler noexcept guard]

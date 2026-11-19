@@ -2,13 +2,16 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
-// C# structure: source/csharp/Scripts/Utility.Algorithms/GZipAlgorithm.cs
+// C# structure: source/csharp_body_deref/Scripts/Utility.Algorithms/GZipAlgorithm.cs
 // Prior real C# source: none
 // --------------------------------
 
 // Utility.Algorithms.GZipAlgorithm$$Compress
 // il2cpp: System_Byte_array* Utility_Algorithms_GZipAlgorithm__Compress (Utility_Algorithms_GZipAlgorithm_o* __this, System_Byte_array* data, int32_t level, const MethodInfo* method);
 // 0x5df5860
+// fidelity: the machine code has facts this C leaves out:
+//   call to il2cpp_codegen_get_runtime_metadata
+//   call to il2cpp_codegen_class_init_checked
 // eh: try 0x5df58c0..0x5df5b53 -> pad 0x5df5b6c (+10 call sites) catch Il2CppExceptionWrapper, cleanup [managed catch: runtime default class]
 // eh: try 0x5df5b5e..0x5df5b68 -> pad 0x5df5c23 catch (...) [compiler noexcept guard]
 // eh: try 0x5df5b91..0x5df5b96 -> pad 0x5df5bae catch Il2CppExceptionWrapper, cleanup [managed catch: runtime default class]
@@ -204,6 +207,9 @@ label_05df5a5d:
 // Utility.Algorithms.GZipAlgorithm$$Decompress
 // il2cpp: System_Byte_array* Utility_Algorithms_GZipAlgorithm__Decompress (Utility_Algorithms_GZipAlgorithm_o* __this, System_Byte_array* data, int32_t bufferSize, int64_t maxSize, const MethodInfo* method);
 // 0x5df5c30
+// fidelity: the machine code has facts this C leaves out:
+//   call to il2cpp_codegen_get_runtime_metadata
+//   call to il2cpp_codegen_class_init_checked
 // eh: try 0x5df5ca4..0x5df6080 -> pad 0x5df6040 (+18 call sites) catch Il2CppExceptionWrapper, cleanup [managed catch: runtime default class]
 // eh: try 0x5df608b..0x5df6095 -> pad 0x5df612b catch (...) [compiler noexcept guard]
 // eh: try 0x5df60aa..0x5df60af -> pad 0x5df60b6 catch Il2CppExceptionWrapper, cleanup [managed catch: runtime default class]

@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: NEW in this game update
-// C# structure: source/csharp/Scripts/UI/MobileControlsOverlay.cs
+// C# structure: source/csharp_body_deref/Scripts/UI/MobileControlsOverlay.cs
 // Prior real C# source: none
 // --------------------------------
 
@@ -4196,6 +4196,13 @@ bool UI_MobileControlsOverlay__IsMapEditorOverlay(UI_MobileControlsOverlay_o *__
 // UI.MobileControlsOverlay$$AddLayoutControls
 // il2cpp: void UI_MobileControlsOverlay__AddLayoutControls (UI_MobileControlsOverlay_o* __this, UnityEngine_RectTransform_o* parent, int32_t role, System_Collections_Generic_List_GameObject__o* group, const MethodInfo* method);
 // 0x5c66270
+// fidelity: the machine code has facts this C leaves out:
+//   call to System_Collections_Generic_List_object___AddWithResize (3 times)
+//   call to Il2CppCodeGenWriteBarrier (3 times)
+//   call to UI_MobileControlsOverlay__CreateLayoutPopup
+//   call to UI_MobileControlsOverlay__CreateLayoutToggle
+//   call to UI_MobileControlsOverlay__AddGasModeButton
+//   call to ThrowNullReferenceException (3 times)
 // eh: try 0x5c663f0..0x5c66c1a -> pad 0x5c66c67 (+40 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
 // eh: try 0x5c66cb1..0x5c66cb6 -> pad 0x5c66cdb cleanup
 // eh: try 0x5c66cde..0x5c66ce8 -> pad 0x5c66d99 catch (...) [compiler noexcept guard]

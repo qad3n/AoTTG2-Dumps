@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: CHANGED in this game update
-// C# structure: source/csharp/Scripts/UI/ItemHandler.cs
+// C# structure: source/csharp_body_deref/Scripts/UI/ItemHandler.cs
 // Prior real C# source (older reference): Assets/Scripts/UI/InGameMenu/ItemHandler.cs
 // --------------------------------
 

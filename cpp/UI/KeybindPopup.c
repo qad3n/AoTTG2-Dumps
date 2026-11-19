@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
-// C# structure: source/csharp/Scripts/UI/KeybindPopup.cs
+// C# structure: source/csharp_body_deref/Scripts/UI/KeybindPopup.cs
 // Prior real C# source (older reference): Assets/Scripts/UI/BaseMenu/KeybindPopup.cs
 // --------------------------------
 

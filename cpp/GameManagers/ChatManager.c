@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: CHANGED in this game update
-// C# structure: source/csharp/Scripts/GameManagers/ChatManager.cs
+// C# structure: source/csharp_body_deref/Scripts/GameManagers/ChatManager.cs
 // Prior real C# source (older reference): Assets/Scripts/GameManagers/ChatManager.cs
 // --------------------------------
 
@@ -8680,6 +8680,8 @@ System_String_o * GameManagers_ChatManager__FormatChatMessage(System_String_o *m
 // GameManagers.ChatManager$$UpdateChatPanel
 // il2cpp: void GameManagers_ChatManager__UpdateChatPanel (const MethodInfo* method);
 // 0x5933d30
+// fidelity: the machine code has facts this C leaves out:
+//   tail call to UI_ChatPanel__Sync
 // asm: 1 instructions the C leaves out (exception handlers, dead branches):
 // asm:   0x5933d56: jmp 0x5933dec
 

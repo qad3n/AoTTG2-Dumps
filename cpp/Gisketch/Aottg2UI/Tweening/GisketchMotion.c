@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
-// C# structure: source/csharp/Gisketch.Aottg2UI.Runtime/Gisketch.Aottg2UI.Tweening/GisketchMotion.cs
+// C# structure: source/csharp_body_deref/Gisketch.Aottg2UI.Runtime/Gisketch.Aottg2UI.Tweening/GisketchMotion.cs
 // Prior real C# source: none
 // --------------------------------
 
@@ -176,6 +176,8 @@ void Gisketch_Aottg2UI_Tweening_GisketchMotion___c__DisplayClass23_0___ctor
 // Gisketch.Aottg2UI.Tweening.GisketchMotion.<>c__DisplayClass23_0$$<Fade>b__0
 // il2cpp: void Gisketch_Aottg2UI_Tweening_GisketchMotion___c__DisplayClass23_0___Fade_b__0 (Gisketch_Aottg2UI_Tweening_GisketchMotion___c__DisplayClass23_0_o* __this, float value, const MethodInfo* method);
 // 0x532a4b0
+// fidelity: the machine code has facts this C leaves out:
+//   tail call to UnityEngine_CanvasGroup__set_alpha
 
 void Gisketch_Aottg2UI_Tweening_GisketchMotion___c__DisplayClass23_0___Fade_b__0
                (Gisketch_Aottg2UI_Tweening_GisketchMotion___c__DisplayClass23_0_o *__this,float value,

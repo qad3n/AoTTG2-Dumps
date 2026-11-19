@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: CHANGED in this game update
-// C# structure: source/csharp/Scripts/Characters/Horse.cs
+// C# structure: source/csharp_body_deref/Scripts/Characters/Horse.cs
 // Prior real C# source (older reference): Assets/Scripts/Characters/Human/Horse/Horse.cs
 // --------------------------------
 
@@ -1622,6 +1622,8 @@ void Characters_Horse__IdleOneShot(Characters_Horse_o *__this,System_String_o *a
 // Characters.Horse$$Update
 // il2cpp: void Characters_Horse__Update (Characters_Horse_o* __this, const MethodInfo* method);
 // 0x5bf1680
+// fidelity: the machine code has facts this C leaves out:
+//   virtual call through vtable slot 105
 
 void Characters_Horse__Update(Characters_Horse_o *__this,MethodInfo *method)
 

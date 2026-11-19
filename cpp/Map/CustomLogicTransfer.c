@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
-// C# structure: source/csharp/Scripts/Map/CustomLogicTransfer.cs
+// C# structure: source/csharp_body_deref/Scripts/Map/CustomLogicTransfer.cs
 // Prior real C# source (older reference): Assets/Scripts/CustomLogic/CustomLogicTransfer.cs
 // --------------------------------
 

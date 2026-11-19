@@ -2,13 +2,16 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
-// C# structure: source/csharp/Scripts/Utility.Algorithms/BrotliAlgorithm.cs
+// C# structure: source/csharp_body_deref/Scripts/Utility.Algorithms/BrotliAlgorithm.cs
 // Prior real C# source: none
 // --------------------------------
 
 // Utility.Algorithms.BrotliAlgorithm$$Compress
 // il2cpp: System_Byte_array* Utility_Algorithms_BrotliAlgorithm__Compress (Utility_Algorithms_BrotliAlgorithm_o* __this, System_Byte_array* data, int32_t level, const MethodInfo* method);
 // 0x5df4690
+// fidelity: the machine code has facts this C leaves out:
+//   call to il2cpp_codegen_get_runtime_metadata
+//   call to il2cpp_codegen_class_init_checked
 // eh: try 0x5df46f0..0x5df4983 -> pad 0x5df499c (+10 call sites) catch Il2CppExceptionWrapper, cleanup [managed catch: runtime default class]
 // eh: try 0x5df498e..0x5df4998 -> pad 0x5df4a53 catch (...) [compiler noexcept guard]
 // eh: try 0x5df49c1..0x5df49c6 -> pad 0x5df49de catch Il2CppExceptionWrapper, cleanup [managed catch: runtime default class]
@@ -204,6 +207,9 @@ label_05df488d:
 // Utility.Algorithms.BrotliAlgorithm$$Decompress
 // il2cpp: System_Byte_array* Utility_Algorithms_BrotliAlgorithm__Decompress (Utility_Algorithms_BrotliAlgorithm_o* __this, System_Byte_array* data, int32_t bufferSize, int64_t maxSize, const MethodInfo* method);
 // 0x5df4a60
+// fidelity: the machine code has facts this C leaves out:
+//   call to il2cpp_codegen_get_runtime_metadata
+//   call to il2cpp_codegen_class_init_checked
 // eh: try 0x5df4ad4..0x5df4eb0 -> pad 0x5df4e70 (+18 call sites) catch Il2CppExceptionWrapper, cleanup [managed catch: runtime default class]
 // eh: try 0x5df4ebb..0x5df4ec5 -> pad 0x5df4f5b catch (...) [compiler noexcept guard]
 // eh: try 0x5df4eda..0x5df4edf -> pad 0x5df4ee6 catch Il2CppExceptionWrapper, cleanup [managed catch: runtime default class]

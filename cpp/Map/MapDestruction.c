@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
-// C# structure: source/csharp/Scripts/Map/MapDestruction.cs
+// C# structure: source/csharp_body_deref/Scripts/Map/MapDestruction.cs
 // Prior real C# source: none
 // --------------------------------
 
@@ -674,6 +674,8 @@ void Map_MapDestruction__Build(MethodInfo *method)
 // Map.MapDestruction$$RemoveParentsOfIndestructible
 // il2cpp: void Map_MapDestruction__RemoveParentsOfIndestructible (const MethodInfo* method);
 // 0x597d6d0
+// fidelity: the machine code has facts this C leaves out:
+//   call to System_Collections_Generic_Dictionary_KeyCollection_Enumerator_int__object___Dispose
 // eh: try 0x597d91a..0x597dc1a -> pad 0x597dc3f (+18 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
 // eh: try 0x597dc25..0x597dc2d -> pad 0x597dcee catch (...) [compiler noexcept guard]
 // eh: try 0x597dc5f..0x597dcb4 -> pad 0x597dd03 (+1 call sites) cleanup
@@ -3249,6 +3251,8 @@ void Map_MapDestruction__SpawnEffects
 // Map.MapDestruction$$ReleaseHooks
 // il2cpp: void Map_MapDestruction__ReleaseHooks (Map_DestructibleMapObject_o* target, const MethodInfo* method);
 // 0x59800c0
+// fidelity: the machine code has facts this C leaves out:
+//   virtual call through vtable slot 74
 // eh: try 0x59801f4..0x59802ad -> pad 0x59802be (+6 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
 // eh: try 0x59802d6..0x59802db -> pad 0x59802fc cleanup
 // eh: try 0x59802ff..0x5980309 -> pad 0x5980311 catch (...) [compiler noexcept guard]

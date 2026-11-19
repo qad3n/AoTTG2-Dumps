@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: CHANGED in this game update
-// C# structure: source/csharp/Scripts/Characters/Human.cs
+// C# structure: source/csharp_body_deref/Scripts/Characters/Human.cs
 // Prior real C# source (older reference): Assets/Scripts/Characters/Human/Human.cs
 // --------------------------------
 
@@ -26590,6 +26590,9 @@ void Characters_Human__ToggleBlades(Characters_Human_o *__this,bool toggle,Metho
 // Characters.Human$$ToggleBladesRPC
 // il2cpp: void Characters_Human__ToggleBladesRPC (Characters_Human_o* __this, bool toggle, Photon_Pun_PhotonMessageInfo_o info, const MethodInfo* method);
 // 0x5bdf1b0
+// fidelity: the machine code has facts this C leaves out:
+//   tail call to Characters_Human__SetWeaponPartsActive
+//   the code after the FinishSetup check below is that callee printed inline
 
 void Characters_Human__ToggleBladesRPC
                (Characters_Human_o *__this,bool toggle,Photon_Pun_PhotonMessageInfo_o info,MethodInfo *method)

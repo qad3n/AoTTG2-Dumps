@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
-// C# structure: source/csharp/Scripts/Map/MapDestructionDebris.cs
+// C# structure: source/csharp_body_deref/Scripts/Map/MapDestructionDebris.cs
 // Prior real C# source: none
 // --------------------------------
 
@@ -34,6 +34,8 @@ void Map_MapDestructionDebris___c__DisplayClass37_0___ctor
 // Map.MapDestructionDebris.<>c__DisplayClass37_0$$<Shatter>b__0
 // il2cpp: System_Collections_Generic_List_List_MapFracture_Triangle___o* Map_MapDestructionDebris___c__DisplayClass37_0___Shatter_b__0 (Map_MapDestructionDebris___c__DisplayClass37_0_o* __this, const MethodInfo* method);
 // 0x5987e80
+// fidelity: the machine code has facts this C leaves out:
+//   tail call to Map_MapFracture__Shatter
 
 System_Collections_Generic_List_List_MapFracture_Triangle___o *
 Map_MapDestructionDebris___c__DisplayClass37_0___Shatter_b__0

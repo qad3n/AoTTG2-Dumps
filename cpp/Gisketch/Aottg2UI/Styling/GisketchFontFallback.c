@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: NEW in this game update
-// C# structure: source/csharp/Gisketch.Aottg2UI.Runtime/Gisketch.Aottg2UI.Styling/GisketchFontFallback.cs
+// C# structure: source/csharp_body_deref/Gisketch.Aottg2UI.Runtime/Gisketch.Aottg2UI.Styling/GisketchFontFallback.cs
 // Prior real C# source: none
 // --------------------------------
 
@@ -1038,6 +1038,8 @@ bool Gisketch_Aottg2UI_Styling_GisketchFontFallback__Has
 // Gisketch.Aottg2UI.Styling.GisketchFontFallback$$Refresh
 // il2cpp: void Gisketch_Aottg2UI_Styling_GisketchFontFallback__Refresh (const MethodInfo* method);
 // 0x53307c0
+// fidelity: the machine code has facts this C leaves out:
+//   virtual call through vtable slot 26
 // eh: try 0x53308f4..0x5330998 -> pad 0x53309a5 (+4 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
 // eh: try 0x53309bd..0x53309c2 -> pad 0x53309e5 cleanup
 // eh: try 0x53309e8..0x53309f2 -> pad 0x53309fa catch (...) [compiler noexcept guard]

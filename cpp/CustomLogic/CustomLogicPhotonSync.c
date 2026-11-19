@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
-// C# structure: source/csharp/Scripts/CustomLogic/CustomLogicPhotonSync.cs
+// C# structure: source/csharp_body_deref/Scripts/CustomLogic/CustomLogicPhotonSync.cs
 // Prior real C# source (older reference): Assets/Scripts/CustomLogic/Component/CustomLogicPhotonSync.cs
 // --------------------------------
 
@@ -1025,6 +1025,8 @@ void CustomLogic_CustomLogicPhotonSync__InitRPC
 // CustomLogic.CustomLogicPhotonSync$$InitDynamicRPC
 // il2cpp: void CustomLogic_CustomLogicPhotonSync__InitDynamicRPC (CustomLogic_CustomLogicPhotonSync_o* __this, bool persistsOwnership, System_String_o* csvScript, Photon_Pun_PhotonMessageInfo_o info, const MethodInfo* method);
 // 0x5b6fe00
+// fidelity: the machine code has facts this C leaves out:
+//   tail call to UnityEngine_MonoBehaviour__StartCoroutine
 
 void CustomLogic_CustomLogicPhotonSync__InitDynamicRPC
                (CustomLogic_CustomLogicPhotonSync_o *__this,bool persistsOwnership,System_String_o *csvScript,

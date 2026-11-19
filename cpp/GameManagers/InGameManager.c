@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: CHANGED in this game update
-// C# structure: source/csharp/Scripts/GameManagers/InGameManager.cs
+// C# structure: source/csharp_body_deref/Scripts/GameManagers/InGameManager.cs
 // Prior real C# source (older reference): Assets/Scripts/GameManagers/InGameManager.cs
 // --------------------------------
 
@@ -9689,6 +9689,8 @@ label_05946402:
 // GameManagers.InGameManager$$Start
 // il2cpp: void GameManagers_InGameManager__Start (GameManagers_InGameManager_o* __this, const MethodInfo* method);
 // 0x5946410
+// fidelity: the machine code has facts this C leaves out:
+//   virtual call through vtable slot 5
 // asm: 4 instructions the C leaves out (exception handlers, dead branches):
 // asm:   0x59464b0: lea rdi, [r14 + 0x38]
 // asm:   0x59464b4: jmp 0x59465b3

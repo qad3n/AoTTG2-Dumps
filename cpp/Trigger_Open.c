@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
-// C# structure: source/csharp/Assembly-CSharp/Trigger_Open.cs
+// C# structure: source/csharp_body_deref/Assembly-CSharp/Trigger_Open.cs
 // Prior real C# source: none
 // --------------------------------
 

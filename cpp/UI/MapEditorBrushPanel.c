@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: CHANGED in this game update
-// C# structure: source/csharp/Scripts/UI/MapEditorBrushPanel.cs
+// C# structure: source/csharp_body_deref/Scripts/UI/MapEditorBrushPanel.cs
 // Prior real C# source: none
 // --------------------------------
 
@@ -1165,6 +1165,8 @@ label_05d697c9:
 // UI.MapEditorBrushPanel$$Rebuild
 // il2cpp: void UI_MapEditorBrushPanel__Rebuild (UI_MapEditorBrushPanel_o* __this, const MethodInfo* method);
 // 0x5d62650
+// fidelity: the machine code has facts this C leaves out:
+//   virtual call through vtable slot 4
 // eh: try 0x5d62e10..0x5d62f87 -> pad 0x5d62f97 (+7 call sites) catch Il2CppExceptionWrapper, cleanup [compiler noexcept guard]
 // eh: try 0x5d62fb8..0x5d62fbd -> pad 0x5d694a7 cleanup
 // eh: try 0x5d694aa..0x5d694b7 -> pad 0x5d694bf catch (...) [compiler noexcept guard]

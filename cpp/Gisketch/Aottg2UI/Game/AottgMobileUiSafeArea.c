@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: NEW in this game update
-// C# structure: source/csharp/Scripts/Gisketch.Aottg2UI.Game/AottgMobileUiSafeArea.cs
+// C# structure: source/csharp_body_deref/Scripts/Gisketch.Aottg2UI.Game/AottgMobileUiSafeArea.cs
 // Prior real C# source: none
 // --------------------------------
 

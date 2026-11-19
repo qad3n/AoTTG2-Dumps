@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
-// C# structure: source/csharp/Scripts/Utility/OrderAttribute.cs
+// C# structure: source/csharp_body_deref/Scripts/Utility/OrderAttribute.cs
 // Prior real C# source (older reference): Assets/Scripts/Utility/CSV/OrderAttribute.cs
 // --------------------------------
 

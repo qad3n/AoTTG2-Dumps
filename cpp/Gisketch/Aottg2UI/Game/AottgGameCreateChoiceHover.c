@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: CHANGED in this game update
-// C# structure: source/csharp/Scripts/Gisketch.Aottg2UI.Game/AottgGameCreateChoiceHover.cs
+// C# structure: source/csharp_body_deref/Scripts/Gisketch.Aottg2UI.Game/AottgGameCreateChoiceHover.cs
 // Prior real C# source: none
 // --------------------------------
 
@@ -93,6 +93,8 @@ void Gisketch_Aottg2UI_Game_AottgGameCreateChoiceHover_AottgGameCreateChoiceFocu
 // Gisketch.Aottg2UI.Game.AottgGameCreateChoiceHover$$Setup
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgGameCreateChoiceHover__Setup (Gisketch_Aottg2UI_Game_AottgGameCreateChoiceHover_o* __this, System_String_o* title, System_String_o* description, System_String_o* previewId, System_String_o* labelId, bool framed, bool mutedBackground, const MethodInfo* method);
 // 0x5e8f2f0
+// fidelity: the machine code has facts this C leaves out:
+//   2 call(s) printed without their arguments
 // eh: try 0x5e8f5bf..0x5e8fc5f -> pad 0x5e8fc79 (+10 call sites) catch Il2CppExceptionWrapper, cleanup [compiler noexcept guard]
 // eh: try 0x5e8fc96..0x5e8fc9b -> pad 0x5e8fca0 cleanup
 // eh: try 0x5e8fca3..0x5e8fcad -> pad 0x5e8fcb5 catch (...) [compiler noexcept guard]

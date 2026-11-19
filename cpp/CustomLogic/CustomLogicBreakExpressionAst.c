@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
-// C# structure: source/csharp/Scripts/CustomLogic/CustomLogicBreakExpressionAst.cs
+// C# structure: source/csharp_body_deref/Scripts/CustomLogic/CustomLogicBreakExpressionAst.cs
 // Prior real C# source (older reference): Assets/Scripts/CustomLogic/Ast/CustomLogicBreakExpression.cs
 // --------------------------------
 

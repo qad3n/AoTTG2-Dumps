@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
-// C# structure: source/csharp/Scripts/CustomLogic/CustomLogicEvaluator.cs
+// C# structure: source/csharp_body_deref/Scripts/CustomLogic/CustomLogicEvaluator.cs
 // Prior real C# source (older reference): Assets/Scripts/CustomLogic/CustomLogicEvaluator.cs
 // --------------------------------
 
@@ -11731,6 +11731,8 @@ bool CustomLogic_CustomLogicEvaluator__HasMethod
 // CustomLogic.CustomLogicEvaluator$$EvaluateMethod
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicEvaluator__EvaluateMethod (CustomLogic_CustomLogicEvaluator_o* __this, CustomLogic_CustomLogicClassInstance_o* classInstance, System_String_o* methodName, System_Object_array* parameterValues, int32_t callerLineNumber, const MethodInfo* method);
 // 0x5b6dc80
+// fidelity: the machine code has facts this C leaves out:
+//   call to CustomLogic_CustomLogicCompiler__FormatLineNumber
 // eh: try 0x5b6de5b..0x5b6eaec -> pad 0x5b6eab2 (+68 call sites) catch Il2CppExceptionWrapper, cleanup [managed catch: TypeInfo_System_Reflection_TargetInvocationException, TypeInfo_System_Exception]
 // eh: try 0x5b6eb12..0x5b6eb1c -> pad 0x5b6edd2 catch (...) [compiler noexcept guard]
 // eh: try 0x5b6eb3e..0x5b6edc2 -> pad 0x5b6edc2 (+2 call sites) cleanup
@@ -12609,6 +12611,19 @@ label_05b6e96a:
 // CustomLogic.CustomLogicEvaluator$$EvaluateMethod
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicEvaluator__EvaluateMethod (CustomLogic_CustomLogicEvaluator_o* __this, CustomLogic_UserMethod_o* userMethod, System_Object_array* parameterValues, const MethodInfo* method);
 // 0x5b8b7e0
+// fidelity: the machine code has facts this C leaves out:
+//   call to il2cpp_runtime_helper_030d6370
+//   virtual call through vtable slot 6 (2 times)
+//   call to Il2CppCodeGenWriteBarrier (11 times)
+//   call to System_Int32__ToString
+//   call to il2cpp_codegen_get_runtime_metadata (6 times)
+//   call to SZArrayNew
+//   load of string "Custom logic runtime error at method "
+//   virtual call through vtable slot 5 (3 times)
+//   call to System_String__Concat
+//   call to System_Object___ctor
+//   call to ThrowIndexOutOfRangeException
+//   call to System_Collections_Generic_List_object___AddWithResize
 // eh: try 0x5b8b934..0x5b8c0b7 -> pad 0x5b8c08d (+36 call sites) catch Il2CppExceptionWrapper, cleanup [managed catch: TypeInfo_System_Reflection_TargetInvocationException, TypeInfo_System_Exception]
 // eh: try 0x5b8c0de..0x5b8c0e8 -> pad 0x5b8c3a0 catch (...) [compiler noexcept guard]
 // eh: try 0x5b8c10a..0x5b8c390 -> pad 0x5b8c390 (+2 call sites) cleanup

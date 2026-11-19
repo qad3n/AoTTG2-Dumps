@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
-// C# structure: source/csharp/Scripts/Characters/BaseDetection.cs
+// C# structure: source/csharp_body_deref/Scripts/Characters/BaseDetection.cs
 // Prior real C# source (older reference): Assets/Scripts/Characters/Detection/BaseDetection.cs
 // --------------------------------
 
@@ -921,6 +921,8 @@ void Characters_BaseDetection__MergeTemp
 // Characters.BaseDetection$$Recalculate
 // il2cpp: void Characters_BaseDetection__Recalculate (Characters_BaseDetection_o* __this, System_Collections_Generic_HashSet_BaseCharacter__o* characters, UnityEngine_Vector3_o myPosition, float mySpeed, const MethodInfo* method);
 // 0x5be58a0
+// fidelity: the machine code has facts this C leaves out:
+//   virtual call through vtable slot 120
 // eh: try 0x5be59a4..0x5be5c14 -> pad 0x5be5c38 (+18 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
 // eh: try 0x5be5c50..0x5be5c55 -> pad 0x5be5c7a cleanup
 // eh: try 0x5be5c7d..0x5be5c87 -> pad 0x5be5c8f catch (...) [compiler noexcept guard]

@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
-// C# structure: source/csharp/Scripts/Replay/HumanReplayState.cs
+// C# structure: source/csharp_body_deref/Scripts/Replay/HumanReplayState.cs
 // Prior real C# source (older reference): Assets/Scripts/Replay/ReplayState/HumanReplayState.cs
 // --------------------------------
 

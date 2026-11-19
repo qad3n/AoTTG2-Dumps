@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: CHANGED in this game update
-// C# structure: source/csharp/Scripts/Characters/BasicTitan.cs
+// C# structure: source/csharp_body_deref/Scripts/Characters/BasicTitan.cs
 // Prior real C# source (older reference): Assets/Scripts/Characters/Titan/BasicTitan.cs
 // --------------------------------
 
@@ -10151,6 +10151,8 @@ void Characters_BasicTitan__UpdateHandHurtbox
 // Characters.BasicTitan$$LateUpdate
 // il2cpp: void Characters_BasicTitan__LateUpdate (Characters_BasicTitan_o* __this, const MethodInfo* method);
 // 0x5c3b980
+// fidelity: the machine code has facts this C leaves out:
+//   1 call(s) printed without their arguments
 // asm: 3 instructions the C leaves out (exception handlers, dead branches):
 // asm:   0x5c3baf8: mov rdi, rbx
 // asm:   0x5c3bafb: mov rsi, rax

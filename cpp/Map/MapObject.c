@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
-// C# structure: source/csharp/Scripts/Map/MapObject.cs
+// C# structure: source/csharp_body_deref/Scripts/Map/MapObject.cs
 // Prior real C# source (older reference): Assets/Scripts/Map/MapObject.cs
 // --------------------------------
 
@@ -126,6 +126,8 @@ void Map_MapObject__RegisterComponentInstance
 // Map.MapObject$$FindComponentInstance
 // il2cpp: CustomLogic_CustomLogicComponentInstance_o* Map_MapObject__FindComponentInstance (Map_MapObject_o* __this, System_String_o* name, const MethodInfo* method);
 // 0x59a1bd0
+// fidelity: the machine code has facts this C leaves out:
+//   virtual call through vtable slot 6
 // eh: try 0x59a1c74..0x59a1ce9 -> pad 0x59a1cf4 (+3 call sites) catch Il2CppExceptionWrapper, cleanup [finally]
 // eh: try 0x59a1d0c..0x59a1d11 -> pad 0x59a1d36 cleanup
 // eh: try 0x59a1d39..0x59a1d43 -> pad 0x59a1d4b catch (...) [compiler noexcept guard]

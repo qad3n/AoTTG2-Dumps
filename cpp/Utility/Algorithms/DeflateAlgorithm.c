@@ -2,13 +2,16 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
-// C# structure: source/csharp/Scripts/Utility.Algorithms/DeflateAlgorithm.cs
+// C# structure: source/csharp_body_deref/Scripts/Utility.Algorithms/DeflateAlgorithm.cs
 // Prior real C# source: none
 // --------------------------------
 
 // Utility.Algorithms.DeflateAlgorithm$$Compress
 // il2cpp: System_Byte_array* Utility_Algorithms_DeflateAlgorithm__Compress (Utility_Algorithms_DeflateAlgorithm_o* __this, System_Byte_array* data, int32_t level, const MethodInfo* method);
 // 0x5df4f80
+// fidelity: the machine code has facts this C leaves out:
+//   call to il2cpp_codegen_get_runtime_metadata
+//   call to il2cpp_codegen_class_init_checked
 // eh: try 0x5df4fe0..0x5df5273 -> pad 0x5df528c (+10 call sites) catch Il2CppExceptionWrapper, cleanup [managed catch: runtime default class]
 // eh: try 0x5df527e..0x5df5288 -> pad 0x5df5343 catch (...) [compiler noexcept guard]
 // eh: try 0x5df52b1..0x5df52b6 -> pad 0x5df52ce catch Il2CppExceptionWrapper, cleanup [managed catch: runtime default class]
@@ -204,6 +207,9 @@ label_05df517d:
 // Utility.Algorithms.DeflateAlgorithm$$Decompress
 // il2cpp: System_Byte_array* Utility_Algorithms_DeflateAlgorithm__Decompress (Utility_Algorithms_DeflateAlgorithm_o* __this, System_Byte_array* data, int32_t bufferSize, int64_t maxSize, const MethodInfo* method);
 // 0x5df5350
+// fidelity: the machine code has facts this C leaves out:
+//   call to il2cpp_codegen_get_runtime_metadata
+//   call to il2cpp_codegen_class_init_checked
 // eh: try 0x5df53c4..0x5df57a0 -> pad 0x5df5760 (+18 call sites) catch Il2CppExceptionWrapper, cleanup [managed catch: runtime default class]
 // eh: try 0x5df57ab..0x5df57b5 -> pad 0x5df584b catch (...) [compiler noexcept guard]
 // eh: try 0x5df57ca..0x5df57cf -> pad 0x5df57d6 catch Il2CppExceptionWrapper, cleanup [managed catch: runtime default class]

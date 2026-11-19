@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
-// C# structure: source/csharp/Scripts/RuntimeSceneGizmo/SceneGizmoController.cs
+// C# structure: source/csharp_body_deref/Scripts/RuntimeSceneGizmo/SceneGizmoController.cs
 // Prior real C# source (older reference): Assets/Scripts/ThirdParty/RuntimeSceneGizmo/SceneGizmoController.cs
 // --------------------------------
 

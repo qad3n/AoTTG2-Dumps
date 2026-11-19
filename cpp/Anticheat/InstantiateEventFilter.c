@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
-// C# structure: source/csharp/Scripts/Anticheat/InstantiateEventFilter.cs
+// C# structure: source/csharp_body_deref/Scripts/Anticheat/InstantiateEventFilter.cs
 // Prior real C# source (older reference): Assets/Scripts/Anticheat/PhotonEvents/InstantiateEventFilter.cs
 // --------------------------------
 

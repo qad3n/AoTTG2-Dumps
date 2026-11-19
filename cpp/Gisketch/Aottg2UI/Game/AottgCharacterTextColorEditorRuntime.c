@@ -2,13 +2,15 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
-// C# structure: source/csharp/Scripts/Gisketch.Aottg2UI.Game/AottgCharacterTextColorEditorRuntime.cs
+// C# structure: source/csharp_body_deref/Scripts/Gisketch.Aottg2UI.Game/AottgCharacterTextColorEditorRuntime.cs
 // Prior real C# source: none
 // --------------------------------
 
 // Gisketch.Aottg2UI.Game.AottgCharacterTextColorEditorRuntime$$Setup
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgCharacterTextColorEditorRuntime__Setup (Gisketch_Aottg2UI_Game_AottgCharacterTextColorEditorRuntime_o* __this, System_String_o* inputId, System_String_o* value, System_String_o* pickerId, Gisketch_Aottg2UI_State_GisketchUIState_o* state, System_String_o* colorsEnabledKey, bool colorsEnabled, System_Action_GameObject__o* imported, System_String_o* previewEffectType, System_Collections_Generic_IList_string__o* previewEffectColors, System_String_o* previewFont, const MethodInfo* method);
 // 0x58eba30
+// fidelity: the machine code has facts this C leaves out:
+//   tail call to Gisketch_Aottg2UI_Game_AottgCharacterTextColorEditorRuntime__ApplyDocument
 
 void Gisketch_Aottg2UI_Game_AottgCharacterTextColorEditorRuntime__Setup
                (Gisketch_Aottg2UI_Game_AottgCharacterTextColorEditorRuntime_o *__this,System_String_o *inputId

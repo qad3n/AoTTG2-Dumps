@@ -2,7 +2,7 @@
 // Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: CHANGED in this game update
-// C# structure: source/csharp/Scripts/Cameras/InGameCamera.cs
+// C# structure: source/csharp_body_deref/Scripts/Cameras/InGameCamera.cs
 // Prior real C# source (older reference): Assets/Scripts/Cameras/InGameCamera.cs
 // --------------------------------
 
@@ -1695,6 +1695,8 @@ void Cameras_InGameCamera__OnDestroy(Cameras_InGameCamera_o *__this,MethodInfo *
 // Cameras.InGameCamera$$OnDisable
 // il2cpp: void Cameras_InGameCamera__OnDisable (Cameras_InGameCamera_o* __this, const MethodInfo* method);
 // 0x5dd4820
+// fidelity: the machine code has facts this C leaves out:
+//   tail call to Cameras_CameraOcclusion__Clear
 // asm: 2 instructions the C leaves out (exception handlers, dead branches):
 // asm:   0x5dd483d: pop rax
 // asm:   0x5dd483e: jmp 0x5dccab0  ; Cameras_CameraOcclusion__Clear()
