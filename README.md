@@ -18,7 +18,7 @@ The same C# tree with each method body lifted from the C into C# syntax. Each me
 
 ## il2cpp/
 
-Decrypts `global-metadata.dat` and recovers the renamed `il2cpp_*` exports so dumpers can read the game. It reads Windows (PE) builds and has one scheme row, for the November 1 2026 Windows build. The Linux build in this dump uses a different header layout that it does not handle yet. See `il2cpp/README.md`.
+Decrypts `global-metadata.dat` and recovers the renamed `il2cpp_*` exports so dumpers can read the game. It reads Windows (PE) and Linux (ELF) builds, with scheme rows for the November 1 2026 Windows build and the November 16 2026 Linux build in this dump. See `il2cpp/README.md`.
 
 ## reconstructed/
 

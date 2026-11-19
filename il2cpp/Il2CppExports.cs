@@ -60,12 +60,12 @@ namespace loader
 		// null when the module already exports the stock names
 		internal static string build(string modulePath, string playerPath)
 		{
-			PeImage module = PeImage.load(modulePath);
+			ModuleImage module = ModuleImage.load(modulePath);
 			List<string> shipped = module.exportNames();
 			if (shipped.Contains(Il2CppExports.kInitExport))
 				return null;
 
-			PeImage player = PeImage.load(playerPath);
+			ModuleImage player = ModuleImage.load(playerPath);
 			List<string> resolved = Il2CppExports.resolveRun(player.leaReferences(player.stringRvas(shipped)));
 			if (resolved.Count != Il2CppExports.kResolveOrder.Length)
 				throw new InvalidDataException($"the player resolves {resolved.Count} renamed il2cpp exports but this loader knows {Il2CppExports.kResolveOrder.Length}; the game uses an unsupported unity version");

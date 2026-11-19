@@ -43,7 +43,7 @@ namespace loader
 			if (scheme == null)
 				throw new InvalidDataException($"this game build encrypts its metadata with an unknown scheme (module {hash[..8]}); the loader needs an update for it");
 
-			byte[] sbox = PeImage.load(modulePath).read(scheme.sboxRva, MetadataDecryptor.kSboxSize).ToArray();
+			byte[] sbox = ModuleImage.parse(moduleBytes).read(scheme.sboxRva, MetadataDecryptor.kSboxSize).ToArray();
 			byte[] shipped = File.ReadAllBytes(metadataPath);
 			byte[] header = shipped.AsSpan(0, scheme.headerSize).ToArray();
 
@@ -65,10 +65,10 @@ namespace loader
 			return rebuilt;
 		}
 
-		// the sections tile the file in stock order from the first encrypted span, so only their order is build specific
+		// the sections tile the file in stock order from the first encrypted span, so only their order and any extra padding are build specific
 		private static byte[] relayout(MetadataScheme scheme, byte[] header, byte[] shipped, int start)
 		{
-			int stockHeader = MetadataDecryptor.kStockPrefix + MetadataDecryptor.kTripleSize * scheme.sectionOrder.Length;
+			int stockHeader = MetadataDecryptor.kStockPrefix + MetadataDecryptor.kTripleSize * scheme.sections.Length;
 			int shift = start - stockHeader;
 			byte[] rebuilt = new byte[stockHeader + shipped.Length - start];
 
@@ -76,11 +76,13 @@ namespace loader
 			BinaryPrimitives.WriteInt32LittleEndian(rebuilt.AsSpan(sizeof(uint)), scheme.version);
 
 			int position = start;
-			for (int i = 0; i < scheme.sectionOrder.Length; i++)
+			for (int i = 0; i < scheme.sections.Length; i++)
 			{
-				int triple = scheme.sectionOrder[i] * MetadataDecryptor.kTripleSize;
-				int count = MetadataDecryptor.field(header, triple + sizeof(int));
-				int size = MetadataDecryptor.field(header, triple + 2 * sizeof(int));
+				MetadataSection section = scheme.sections[i];
+				int triple = section.record * MetadataDecryptor.kTripleSize;
+				int count = MetadataDecryptor.field(header, triple + scheme.record.countField);
+				int size = MetadataDecryptor.field(header, triple + scheme.record.sizeField);
+				position += section.padding;
 
 				Span<byte> entry = rebuilt.AsSpan(MetadataDecryptor.kStockPrefix + i * MetadataDecryptor.kTripleSize);
 				BinaryPrimitives.WriteInt32LittleEndian(entry, position - shift);
